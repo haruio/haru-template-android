@@ -3,5 +3,12 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Login Page -->
     <string name="title_activity_login">LoginActivity</string>
+    <string name="id_hint_login">Username</string>
+    <string name="pw_hint_login">Password</string>
+    <string name="login_btn_login">Login to my Account ></string>
+    <string name="lose_btn_login">계정을 잃어버리셨습니까? ></string>
+    <string name="create_btn_login">처음 오셨나요? 새로운 계정을 만들기 ></string>
 </resources>
