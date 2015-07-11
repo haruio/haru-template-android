@@ -88,26 +88,21 @@
             android:layout_marginBottom="20dp"
             android:background="#fff"/>
 
-        <com.andexert.library.RippleView
-            android:id="@+id/btn_ripple_login"
+
+        <Button
+            android:id="@+id/login_btn_login"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_below="@id/pw_line_login"
-            rv_framerate="5"
-            rv_centered="true">
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/login_btn_login"
-                android:textColor="#fff"
-                android:background="@drawable/bg_btn_login" />
-        </com.andexert.library.RippleView>
+            android:text="@string/login_btn_login"
+            android:textColor="#fff"
+            android:background="@drawable/bg_btn_login" />
 
         <TextView
             android:id="@+id/lose_btn_login"
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:layout_below="@id/btn_ripple_login"
+            android:layout_below="@id/login_btn_login"
             android:layout_margin="7dp"
             android:text="@string/lose_btn_login"
             android:textColor="#fff"
